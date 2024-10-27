@@ -1,12 +1,11 @@
-import type { Site, Ui, Features } from './types'
+import type {Features, Site, Ui} from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
+  website: 'https://relection.fireflyshen.me',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
-  description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
+  title: 'My Reflection',
+  description:'',
+  author: 'fireflyshen',
   lang: 'en',
   ogLocale: 'en_US',
 }
@@ -19,19 +18,6 @@ export const UI: Ui = {
       displayMode: 'textToIconOnMobile',
       text: 'Blog',
       icon: 'i-ri-article-line',
-    },
-    {
-      path: '/projects',
-      title: 'Projects',
-      displayMode: 'textToIconOnMobile',
-      text: 'Projects',
-      icon: 'i-ri-lightbulb-line',
-    },
-    {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'iconHiddenOnMobile',
-      icon: 'i-ri-draft-line',
     },
   ],
   socialLinks: [
