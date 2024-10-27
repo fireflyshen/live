@@ -2,8 +2,8 @@ export async function GET() {
   const base = import.meta.env.BASE_URL
 
   const manifest = {
-    name: 'Astro AntfuStyle Theme',
-    short_name: 'AntfuStyle',
+    name: 'Hello friends',
+    short_name: 'Hello',
     description:
       'A customizable, feature-rich Astro theme for blog and portfolio',
     icons: [

@@ -27,12 +27,6 @@ export const UI: Ui = {
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
-    {
-      link: 'https://x.com/ste7lin',
-      title: `${SITE.author} on Twitter`,
-      displayMode: 'iconHiddenOnMobile',
-      icon: 'i-ri-twitter-x-fill',
-    },
   ],
   navBarLayout: {
     left: [],
